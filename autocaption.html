@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="autoCaption.co gives you the perfect caption, every time. Made at the PennApps Fall 2015 hackathon - won best use of Amazon Web Services (AWS) award.">
+    <meta name="author" content="Nipun Singh">
+    <meta name="keywords" content="autoCaption.co automatic caption maker penn apps hackathon fall 2015 IBM watson image recognition imagga best use of AWS amazon web services cloud search ">
+
+    <title>autoCaption.co - Nipun Singh Portfolio</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Google Analytics Tracking Script -->
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-79893966-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Nipun Singh</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="index.html"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="index.html#experience">Work Experience</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="index.html#about">About Me</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="index.html#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#autocaption">autoCaption.co</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+     <section id="autocaption">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-offset-2 col-lg-8 text-center">
+                    <br>
+                    <h3>AutoCaption.co</h3>
+                    <hr class="star-primary">
+                    <img src="img/autocaption.png" class="img-responsive img-centered" alt="AutoCaption.co Logo">
+                    <br>
+                    <p style="font-size:115%;">The goal of autoCaption.co is to give you the perfect caption, every time. We were inspired to make this after struggling to come up with funny and interesting captions when we posted pictures on social media. We made this in September 2015 at the Penn Apps Hackathon - one of the largest student hackathons with over 1,300 students. Amazon awarded us the prize for best use of Amazon Web Services due to our innovative use of the CloudSearch service.</p>
+                    <br>
+                    <img src="img/autocaption_homepage.png" class="img-responsive img-centered" alt="AutoCaption Screen Shots">
+                    <br>
+                    <h4>How It Works</h4>
+                    <br>
+                    <p style="font-size:115%;">We used IBM BlueMix Watson Image Recognition API as well as Imagga API to detect objects in uploaded pictures to our platform. My contribution to the team was scraping hip hop lyrics, funny quotes, and one liners from a variety of sources on the web. I then loaded these potential captions into AWS Cloud Search. There I implemented and tuned fuzzy search throughout our custom database of captions. I also did innovative synonym tagging on the captions in order to surface even more relevant and funny captions. For my use and tuning of AWS Cloud Search our team was awarded the best use of AWS prize. The Model-View-Controller framework we used was Django hosted on DigitalOcean.</p>
+                    <p style="font-size:115%;">You can read more about our project on the official <a target="_blank" href="http://devpost.com/software/autocaption">Devpost entry</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+</html>
